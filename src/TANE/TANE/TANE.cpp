@@ -5,7 +5,7 @@ TANE::TANE()
     R = 0;
     rowNum = 0;
     columnNum = 0;
-    inputFilePath = "C:/Users/ASUS/Desktop/FDMining/test_data.txt";
+    inputFilePath = "C:/Users/ASUS/Desktop/FDMining/data.txt";
     outputFilePath = "result.txt";
     T.resize(100000,-1);
     double start, stop, durationTime;
@@ -26,12 +26,12 @@ TANE::TANE(string inputPath)
     inputFilePath = inputPath;
     outputFilePath = "result.txt";
     T.resize(100000,-1);
-    double start, stop, durationTime;
-    start = clock();
+    //double start, stop, durationTime;
+   // start = clock();
     readFile();
-    stop = clock();
-    durationTime = ((double)(stop - start)) / CLOCKS_PER_SEC;
-    cout << "Reading file Time: " << durationTime << "s" << endl;
+    //stop = clock();
+    //durationTime = ((double)(stop - start)) / CLOCKS_PER_SEC;
+    //cout << "Reading file Time: " << durationTime << "s" << endl;
     mineFD();
     outputResult();
 }
@@ -110,7 +110,6 @@ void TANE::readFile()
         }
         db.push_back(tempInt);
         rowNum++;
-		cout << "row num is " << rowNum << endl;
     }
     inFile.close();
 }
