@@ -1,8 +1,8 @@
-# Database-Functional-Dependency-Digging-Algorithms
+# Database-Functional-Dependency-Mining-Algorithms
 > Author of TANE: [Qianrui Zhang](https://github.com/owen6314)  
 > Author of DFD: [Jinghan Gao](https://github.com/getterk96)
 ## Usage
-Digging functional dependencies from database raw data, with TANE and DFD, two algorithms included.
+Mining functional dependencies from database raw data, with TANE and DFD, two algorithms included.
 ## Test Result of TANE
 |data size|searching time|  
 |-|-|  
