@@ -14,7 +14,8 @@ bool FDResultCmp(const FD &first, const FD &second)
             iter_i++;
             iter_j++;
         }
-        if(iter_i == first.left.end()) return false;
+        if(iter_i == first.left.end()) return true;
+        if(iter_j == second.left.end()) return false;
     }
     else
         return first.right < second.right;
