@@ -1,6 +1,7 @@
 # Database-Functional-Dependency-Mining-Algorithms
 > Author of TANE: [Qianrui Zhang](https://github.com/owen6314)  
 > Author of DFD: [Jinghan Gao](https://github.com/getterk96)
+
 ## Usage
 Mining functional dependencies from database raw data, with TANE and DFD, two algorithms included.
 
@@ -12,6 +13,11 @@ In **main.cpp**, change
 to your own absolute path.
 
 ### DFD 
+In **main.cpp**, change
+
+	open("input file path")
+
+to your own absolute path.
 
 ## Test Result of TANE
 |data size|searching time|  
