@@ -12,6 +12,14 @@ In **main.cpp**, change
 
 to your own absolute path.
 
+Compile the file then.
+
+	g++ FD.cpp main.cpp TANE.cpp -std=c++11 -Ofast -o digger
+
+Run the digger.
+
+	./digger
+
 ### DFD 
 In **main.cpp**, change
 
@@ -19,11 +27,20 @@ In **main.cpp**, change
 
 to your own absolute path.
 
+Compile the file then.
+
+	g++ DFD.cpp main.cpp -std=c++11 -Ofast -o digger
+
+Run the digger.
+
+	./digger
+
+
 ## Test Result of TANE
 |data size|searching time|  
 |-|-|  
-|100,000|4.5s|
+|100,000|2.423s|
 ## Test Result of DFD 
 |data size|searching time|  
 |-|-|  
-|100,000|10.57s|
+|100,000|9.982s|
